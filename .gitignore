@@ -285,6 +285,12 @@ FakesAssemblies/
 .ntvs_analysis.dat
 node_modules/
 
+src/*/*.js
+src/*/*.js.map
+src/*/*.css
+src/*/*.css.map
+output/
+
 # Visual Studio 6 build log
 *.plg
 
