@@ -117,13 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ControlGroup_DigitalDesign" xml:space="preserve">
-    <value>Digital Design custom controls</value>
+  <data name="ControlGroup" xml:space="preserve">
+    <value>Custom controls</value>
   </data>
   <data name="ControlName" xml:space="preserve">
     <value>DropdownOutUser</value>
-  </data>
-  <data name="DropdownOutUserSampleDataPropertyName" xml:space="preserve">
-    <value>DropdownOutUserSampleData</value>
   </data>
 </root>

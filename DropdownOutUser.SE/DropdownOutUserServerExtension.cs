@@ -9,7 +9,7 @@ using DocsVision.WebClient.Extensibility;
 
 namespace DropdownOutUser.SE {
     /// <summary>
-    /// Задаёт описание расширения для WebClient, которое задано в текущей сборке
+    /// Задаёт описание расширения для WebClient, реализованное в текущей сборке
     /// </summary>
     public class DropdownOutUserServerExtension : WebClientExtension {
 

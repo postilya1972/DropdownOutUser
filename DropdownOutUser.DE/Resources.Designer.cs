@@ -8,9 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System;
-
 namespace DropdownOutUser.DE {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,15 +23,15 @@ namespace DropdownOutUser.DE {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
-
+        
         private static global::System.Resources.ResourceManager resourceMan;
-
+        
         private static global::System.Globalization.CultureInfo resourceCulture;
-
+        
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-
+        
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -44,7 +45,7 @@ namespace DropdownOutUser.DE {
                 return resourceMan;
             }
         }
-
+        
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -58,31 +59,22 @@ namespace DropdownOutUser.DE {
                 resourceCulture = value;
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Digital Design custom controls.
+        ///   Looks up a localized string similar to Custom controls.
         /// </summary>
-        public static string ControlGroup_DigitalDesign {
+        public static string ControlGroup {
             get {
-                return ResourceManager.GetString("ControlGroup_DigitalDesign", resourceCulture);
+                return ResourceManager.GetString("ControlGroup", resourceCulture);
             }
         }
-
+        
         /// <summary>
-        ///   Looks up a localized string similar to Universal Dropdown List.
+        ///   Looks up a localized string similar to DropdownOutUser.
         /// </summary>
         public static string ControlName {
             get {
                 return ResourceManager.GetString("ControlName", resourceCulture);
-            }
-        }
-
-        /// <summary>
-        ///   Looks up a localized string similar to Description.
-        /// </summary>
-        public static string DropdownOutUserSampleDataPropertyName {
-            get {
-                return ResourceManager.GetString("DropdownOutUserSampleDataPropertyName", resourceCulture);
             }
         }
     }

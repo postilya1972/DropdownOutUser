@@ -13,11 +13,6 @@ namespace DropdownOutUser.DE {
             /// </summary>			
             public const string ClassName = "DropdownOutUser";
 
-            /// <summary>
-            /// Возвращает наименование тестового свойства для примера
-            /// </summary>						
-            public const string DropdownOutUserSampleData = "DropdownOutUserSampleData";
-
             //TODO Здесь другие свойства
             // ...
         }

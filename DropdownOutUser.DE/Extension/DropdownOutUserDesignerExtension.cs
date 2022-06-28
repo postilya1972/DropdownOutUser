@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Resources;
 using DocsVision.Platform.Tools.LayoutEditor.Extensibility;
 using DocsVision.Platform.Tools.LayoutEditor.Helpers;
-using DocsVision.Platform.Tools.LayoutEditor.Infrostructure;
 using DocsVision.Platform.Tools.LayoutEditor.ObjectModel.Descriptions;
 
 namespace DropdownOutUser.DE.Extension {
@@ -44,12 +43,10 @@ namespace DropdownOutUser.DE.Extension {
         /// Возвращает описание контрола
         /// </summary>
         private ControlTypeDescription GetControlDescription() {
-
-            var CustomControl = new ControlTypeDescription(Constants.DropdownOutUserControl.ClassName) {
+            var customControl = new ControlTypeDescription(Constants.DropdownOutUserControl.ClassName) {
                 DisplayName = Resources.ControlName,
-                ControlGroupDisplayName = Resources.ControlGroup_DigitalDesign,
-                PropertyDescriptions =
-                {
+                ControlGroupDisplayName = Resources.ControlGroup,
+                PropertyDescriptions = {
                     PropertyFactory.GetNameProperty(),
                     PropertyFactory.GetVisibilityProperty(),
                     PropertyFactory.GetCustomCssClassesProperty(),
@@ -70,9 +67,10 @@ namespace DropdownOutUser.DE.Extension {
                     PropertyFactory.GetDataChangedEvent(),
                     PropertyFactory.GetMouseOutEvent(),
                     PropertyFactory.GetMouseOverEvent()
+                    //TODO Здесь могут быть и другие обработчики событий
                 }
             };
-            return CustomControl;
+            return customControl;
         }
 
         #region Property_Description
