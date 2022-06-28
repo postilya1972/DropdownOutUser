@@ -24,7 +24,7 @@ namespace DropdownOutUser.SE.Controllers {
         }
 
         /// <summary>
-        /// Возвращает информацию о списке пользователей во снешней системе
+        /// Возвращает информацию о списке пользователей из внешней системы
         /// </summary>
         /// <returns>модель со списком пользователей</returns>
         public ActionResult GetUsersInfo() {
