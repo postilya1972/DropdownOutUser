@@ -1,0 +1,1 @@
+{"version":3,"sources":["Styles/DropdownOutUser.scss","Styles/DropdownOutUser.css"],"names":[],"mappings":"AAAA;EACI,UAAU;EACb,gBAAgB;ACCjB","file":"extension.css","sourcesContent":["div.my-ctrl {\r\n    color: red;\r\n\tfont-weight: 600;\t\r\n}","div.my-ctrl {\n  color: red;\n  font-weight: 600;\n}\n"]}
